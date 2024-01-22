@@ -1,26 +1,43 @@
 <!doctype html>
 <html lang="en-US">
 
-<head>
-	<title>Hidden50 | Portfolio</title>
-	<meta charset="utf-8">
-	<script src="./js/projectlist.js"></script>
-	<script src="./js/ui.js"></script>
-	<link  href="./style/index.css" rel="stylesheet">
-	<link  href="./favicon.ico"     rel="icon" type="image/x-icon">
-</head>
+	<head>
+		<title>Hidden50 | Portfolio</title>
+		<meta charset="utf-8">
+		<!--<link  href="./css/debug-layout.css" rel="stylesheet">-->
+		<link  href="./css/index.css"      rel="stylesheet">
+		<link  href="./css/portfolio.css"  rel="stylesheet">
+		<link  href="./favicon.ico"        rel="icon" type="image/x-icon">
 
-<body>
+	</head>
 
-<div class="wrapper">
-	<h1>
-		<span class="header">
-			<a target="_blank" href="https://github.com/Hidden50">Hidden50</a>
-			<span>Portfolio</span>
-		</span>
-		<i>Projects I've worked on or created</i>
-	</h1>
-	<div class="projectlist"></div>
-</div>
+	<body>
 
-</body></html>
+		<aside class="sidebar">
+			<h1><a href="https://hidden50.github.io">Hidden50</a></h1>
+			<nav>
+				<ul>
+					<li><a href="#portfolio" title="projects I've worked on or created" class="active">Portfolio</a></li>
+					<li><a href="#brmt"      title="threatlist generator for pokemon teams">Brmt</a></li>
+					<li><a href="#pq"        title="pokemon quest pokedex">PQdex</a></li>
+				</ul>
+				<ul>
+					<li><a href="#links"     title="useful or interesting things that I've come across">Links</a></li>
+					<li class="github"><a href="https://github.com/Hidden50" target="_blank" title="my userpage on Github">Github</a></li>
+				</ul>
+			</nav>
+		</aside>
+
+		<header>
+			<div class="header-top">
+				<h1><span>Portfolio</span><i>projects I've worked on or created</i></h1>
+			</div>
+			<div class="header-bottom"></div>
+		</header>
+
+		<main></main>
+
+		<script type="module" src="./index.js"></script>
+	</body>
+
+</html>
