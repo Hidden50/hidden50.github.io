@@ -1,11 +1,12 @@
 export const linkLogos = {
-	Github:                              "https://github.com/favicon.ico",
-	"https://hidden50.github.io/brmt/":  "",//"https://hidden50.github.io/brmt/favicon.ico",
-	"https://play.pokemonshowdown.com/": "https://play.pokemonshowdown.com/favicon.ico",
-	Forum:                               "https://www.entwickler-ecke.de/favicon.ico"
+	"https://hidden50.github.io/brmt/": "https://hidden50.github.io/brmt/favicon.ico",
+	"https://hidden50.github.io/pq/":   "https://hidden50.github.io/pq/favicon.ico",
+	Github:                             "https://github.com/favicon.ico",
+	Forum:                              "https://www.entwickler-ecke.de/favicon.ico"
 };
 
 export const projectlist = [{
+
 	title:      "<b>BreakMyTeam</b>",
 	thumbnail:  "./img/brmt.png",
 	languages:  "html",
@@ -15,23 +16,31 @@ export const projectlist = [{
 		Github:  "https://github.com/Hidden50/brmt"
 	},
 	work:       "<ul>" +
-					"<li>User Interface, responsive page design</li>" +
-					"<li>Service Worker, offline access</li>" +
 					"<li>Data Parser</li>" +
 					"<li>Rating Function</li>" +
 					"<li>HTML output module</li>" +
+					"<li>User Interface, responsive page design</li>" +
+					"<li>Service Worker for offline access</li>" +
 				"</ul>"
+
 }, {
+
 	title:      "<b>PQdex</b>",
 	thumbnail:  "./img/PQdex.png",
 	languages:  "html",
-	desc:       "Pokemon Quest pokedex.",
+	desc:       "A pokedex for the spinoff game <i>Pokemon Quest</i>.",
 	links:      {
 		Website: "https://hidden50.github.io/pq/",
 		Github:  "https://github.com/Hidden50/pq"
 	},
-	work:       ""
+	work:       "<ul>" +
+					"<li>Recipe generator</li>" +
+					"<li>Recipe compression to shorten the resulting list</li>" +
+					"<li>Stoneslot probability calculator</li>" +
+				"</ul>",
+
 }, {
+
 	title:      "<b>Scrappie</b>",
 	thumbnail:  "./img/scrappie.png",
 	languages:  "node.js",
@@ -43,9 +52,11 @@ export const projectlist = [{
 					"<li>Chatroom Statistics, Average daily activity curve<span class='hoverimage'><img src='./img/scrappie-roomstats-2.png'></span></li>" +
 					"<li>Message History<span class='hoverimage'><img src='./img/scrappie-roomstats-1.png'></span></li>" +
 					"<li>Auction script<span class='hoverimage'><img src='./img/Scrappie-auction.png'></span></li>" +
-					"<li>Reddit-like nested conversations<span class='hoverimage'><img src='./img/scrappie-conversations.png'></span></li>"+
-				"</ul>"
+					"<li>Reddit-like nested conversations<span class='hoverimage'><img src='./img/scrappie-conversations.png'></span></li>" +
+				"</ul>",
+
 }, {
+
 	title:      "<b>Sweeper</b>",
 	thumbnail:  "./img/sweeper.png",
 	languages:  "delphi",
@@ -53,5 +64,10 @@ export const projectlist = [{
 	links:      {
 		Forum:   "https://www.entwickler-ecke.de/viewtopic.php?t=111763"
 	},
-	work:       ""
+	work:       `<ul>
+					<li>Click on numbers to make the solver digest their information</li>
+					<li>the solver generates all possible mine positions that don't contradict the information it has</li>
+					<li>if all possible positions have a mine somewhere, it becomes flagged. Otherwise you can calculate the probability of it being a mine.</li>
+				</ul>`,
+
 }];
