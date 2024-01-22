@@ -1,0 +1,15 @@
+html {
+	background: black !important;
+}
+body {
+	background: lightblue !important;
+}
+.header {
+	background: white !important;
+}
+.sidebar {
+	background: yellow !important;
+}
+.main {
+	background: cyan !important;
+}
