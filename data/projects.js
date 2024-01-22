@@ -1,5 +1,5 @@
 export const linkLogos = {
-	"https://hidden50.github.io/brmt/": "https://hidden50.github.io/brmt/favicon.ico",
+	"https://hidden50.github.io/brmt/": "https://hidden50.github.io/brmt/img/favicon.ico",
 	"https://hidden50.github.io/pq/":   "https://hidden50.github.io/pq/favicon.ico",
 	Github:                             "https://github.com/favicon.ico",
 	Forum:                              "https://www.entwickler-ecke.de/favicon.ico"
