@@ -28,7 +28,7 @@ export const projectlist = [{
 	title:      "<b>PQdex</b>",
 	thumbnail:  "./img/PQdex.png",
 	languages:  "html",
-	desc:       "A pokedex for the spinoff game <i>Pokemon Quest</i>.",
+	desc:       "Pokedex for the spinoff game <i>Pokemon Quest</i>.",
 	links:      {
 		Website: "https://hidden50.github.io/pq/",
 		Github:  "https://github.com/Hidden50/pq"
