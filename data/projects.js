@@ -7,8 +7,8 @@ export const linkLogos = {
 
 export const projectlist = [{
 
-	title:      "<b>BreakMyTeam</b>",
-	thumbnail:  "./img/brmt.png",
+	title:      "BreakMyTeam",
+	thumbnail:  "./img/tmb/brmt.png",
 	languages:  "html",
 	desc:       "Threatlist generator website for Pokemon Teams.",
 	links:      {
@@ -25,8 +25,8 @@ export const projectlist = [{
 
 }, {
 
-	title:      "<b>PQdex</b>",
-	thumbnail:  "./img/PQdex.png",
+	title:      "PQdex",
+	thumbnail:  "./img/tmb/PQdex.png",
 	languages:  "html",
 	desc:       "Pokedex for the spinoff game <i>Pokemon Quest</i>.",
 	links:      {
@@ -41,8 +41,8 @@ export const projectlist = [{
 
 }, {
 
-	title:      "<b>Scrappie</b>",
-	thumbnail:  "./img/scrappie.png",
+	title:      "Scrappie",
+	thumbnail:  "./img/tmb/scrappie.png",
 	languages:  "node.js",
 	desc:       "Pokemon Showdown Node Bot, forked from Ecuacion.",
 	links:      {
@@ -57,8 +57,8 @@ export const projectlist = [{
 
 }, {
 
-	title:      "<b>Sweeper</b>",
-	thumbnail:  "./img/sweeper.png",
+	title:      "Sweeper",
+	thumbnail:  "./img/tmb/sweeper.png",
 	languages:  "delphi",
 	desc:       "Minesweeper clone, with solver.",
 	links:      {
