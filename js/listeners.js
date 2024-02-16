@@ -3,12 +3,14 @@ import * as ui from "./ui.js";
 export function init () {
 	// toggle compact mode on and off
 	const mainAnchor = document.querySelector(".sidebar > h1 > a");
+
 	mainAnchor.addEventListener( 'click', e => {
 		e.preventDefault();
-		document.body.classList.toggle('compactview');
+		document.body.classList.toggle('show-navigation');
+		document.body.classList.toggle('hide-navigation');
 		document.body.click();
 	});
-	
+
 	// load sidebar links inline
 	for (const anchor of document.querySelectorAll(".sidebar > nav a")) {
 
@@ -19,7 +21,11 @@ export function init () {
 
 		anchor.addEventListener( 'click', e => {
 			e.preventDefault();
-			ui.displayTabContent(anchor.innerText);
+			if (anchor.innerText === "debug") {
+				document.querySelector(':scope').classList.toggle('debug');
+				return;
+			}
+			ui.displaytab(anchor.innerText);
 		});
 	}
 }

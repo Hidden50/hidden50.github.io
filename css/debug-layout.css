@@ -1,15 +1,29 @@
-html {
-	background: black !important;
+/*html.debug {
+	background: red !important;
 }
-body {
-	background: lightblue !important;
+html.debug body {
+	background: blue !important;
+}*/
+
+html.debug header,
+html.debug header .header-top,
+html.debug header .header-middle,
+html.debug header .header-bottom {
+	background: orange !important;
 }
-.header {
-	background: white !important;
-}
-.sidebar {
+html.debug aside.sidebar {
 	background: yellow !important;
 }
-.main {
-	background: cyan !important;
+html.debug main {
+	background: lime !important;
+}
+
+html.debug .project {
+	background: blueviolet !important;
+}
+html.debug .project > .projectdesc {
+	background: seagreen !important;
+}
+html.debug .project > .linktable {
+	background: fuchsia !important;
 }

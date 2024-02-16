@@ -1,0 +1,96 @@
+/* **************************************
+	hide navigation by default
+*************************************** */
+
+header,
+.sidebar nav {
+	display: none;
+}
+
+
+/* **************************************
+	default layout (mobile)
+*************************************** */
+
+header,
+.sidebar {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	user-select: none;
+}
+header {
+	right: 0px;
+	z-index: 1;
+}
+.sidebar {
+	width: 120px;
+	z-index: 10;
+}
+header > .header-middle {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 120px;
+}
+
+main {
+	height: 100%;
+}
+.tab:not(.active) {
+	display: none;
+}
+.tab.scroll {
+	margin: 40px 20px;
+}
+.tab:not(.scroll) {
+	height: 100%;
+}
+
+
+/* **************************************
+	reveal navigation on hover
+*************************************** */
+
+.sidebar:hover,
+.sidebar:hover nav,
+.sidebar:hover ~ header,
+header:hover {
+	display: inline;
+}
+.sidebar:hover {
+	height: 100%;
+	background: var(--theme-menucolor);
+}
+
+
+/* **************************************
+	reveal navigation on large screens
+*************************************** */
+
+@media (min-width: 800px) {
+	.show-navigation {
+		header,
+		.sidebar nav {
+			display: block;
+		}
+		.header-top,
+		.sidebar {
+			padding-top: 20px;
+		}
+		header {
+			left: 120px;
+		}
+		.sidebar {
+			height: 100%;
+			background: var(--theme-menucolor);
+			padding-left: 15px;
+		}
+		.header-middle {
+			padding-left: 0;
+		}
+		main {
+			margin-top: 60px;
+			margin-left: 120px;
+		}
+	}
+}

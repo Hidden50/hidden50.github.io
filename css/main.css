@@ -1,0 +1,60 @@
+/* ***************************
+	color scheme
+****************************** */
+
+:root {
+	--theme-menucolor: white;
+	--theme-menucolor-transparent: rgba(255, 255, 255, 0.7);
+	--theme-menuborder: black;
+	--theme-backgroundcolor: rgba(173, 216, 230, 0.7);
+
+	--font-menu-title: black;
+	--font-menu-subtitle: #818D98;
+}
+
+body {
+	background: var(--theme-backgroundcolor);
+}
+
+.sidebar {
+	background: var(--theme-menucolor-transparent);
+	font-size: 12pt;
+	border-right: 1px solid var(--theme-menuborder);
+}
+.sidebar ul {
+	padding-left: 25px;
+}
+.sidebar li {
+	list-style: none;
+}
+
+.header-top,
+.header-middle {
+	background: var(--theme-menucolor);
+}
+.header-bottom {
+	height: 15px;
+	background: linear-gradient(to bottom, var(--theme-menucolor), var(--theme-menucolor-transparent) 40%, transparent);
+}
+
+header h1,
+header p,
+.sidebar h1 {
+	margin: 0;
+	padding: 0px 10px;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size: 14pt;
+	color: var(--font-menu-title);
+}
+header p {
+	color: var(--font-menu-subtitle);
+	font-style: italic;
+}
+.header-middle,
+.sidebar h1 {
+	border-top: 1px solid var(--theme-menuborder);
+	border-bottom: 1px solid var(--theme-menuborder);
+}
+.sidebar h1 {
+	border-left: 1px solid var(--theme-menuborder);
+}

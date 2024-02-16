@@ -49,10 +49,10 @@ export const projectlist = [{
 		Github:  "https://github.com/Hidden50/Pokemon-Showdown-Node-Bot"
 	},
 	work:       "<ul>" +
-					"<li>Chatroom Statistics, Average daily activity curve<span class='hoverimage'><img src='./img/scrappie-roomstats-2.png'></span></li>" +
-					"<li>Message History<span class='hoverimage'><img src='./img/scrappie-roomstats-1.png'></span></li>" +
-					"<li>Auction script<span class='hoverimage'><img src='./img/Scrappie-auction.png'></span></li>" +
-					"<li>Reddit-like nested conversations<span class='hoverimage'><img src='./img/scrappie-conversations.png'></span></li>" +
+					"<li>Chatroom Statistics, Average daily activity curve</li>" +
+					"<li>Message History</li>" +
+					"<li>Auction script</li>" +
+					"<li>Reddit-like nested conversations</li>" +
 				"</ul>",
 
 }, {

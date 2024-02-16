@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+html {
+	color-scheme: dark light;
+}
+body {
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+p:first-child {
+	margin-top: 0;
+}
+
+img,
+picture,
+svg,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a.active {
+	font-weight: bold;
+	text-decoration: none;
+}
