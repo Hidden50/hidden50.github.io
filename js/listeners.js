@@ -15,7 +15,7 @@ export function init () {
 		const caption = anchor.innerText.toLowerCase();
 		ui.htmlNodes.links[caption] = anchor;
 		
-		if (!anchor.href || anchor.href.indexOf('#') === -1) return;
+		if (!anchor.href || anchor.href.indexOf('#') === -1) continue;
 
 		anchor.addEventListener( 'click', e => {
 			e.preventDefault();
