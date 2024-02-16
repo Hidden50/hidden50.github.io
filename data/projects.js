@@ -1,8 +1,8 @@
 export const linkLogos = {
 	"https://hidden50.github.io/brmt/": "https://hidden50.github.io/brmt/img/favicon.ico",
 	"https://hidden50.github.io/pq/":   "https://hidden50.github.io/pq/favicon.ico",
-	Github:                             "https://github.com/favicon.ico",
-	Forum:                              "https://www.entwickler-ecke.de/favicon.ico"
+	Github:                             "https://www.google.com/s2/favicons?sz=18&domain=github.com",
+	Forum:                              "https://www.google.com/s2/favicons?sz=18&domain=entwickler-ecke.de"
 };
 
 export const projectlist = [{
