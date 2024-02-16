@@ -6,7 +6,7 @@ import * as ui from "./js/ui.js";
 	window.addEventListener('load', () => {
 		ui.listeners.init();
 	
-		let [, urlparam, iframeparams] = location.hash.match(/^#([^#]*)(?:(#.*))?$/) || [];
-		ui.displayTabContent(urlparam || "Portfolio", iframeparams);
+		const [, urlparam, iframeparams] = location.hash.match(/^#([^#]*)(?:(#.*))?$/) || [];
+		ui.displaytab(urlparam || "Portfolio", iframeparams);
 	});
 })();
